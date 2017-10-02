@@ -5,7 +5,7 @@ import java.util.List;
 
 public class NewMax {
     static List<Integer> maxSubMass(List<Integer> list) {
-        List arr1 = new ArrayList();
+        List<Integer> arr1 = new ArrayList<>();
         int sum = 0;
         int begin = 0;
         int end = 0;
@@ -33,7 +33,6 @@ public class NewMax {
             }
         }
         arr1 = list.subList(begin, end+1);
-        System.out.println(arr1);
         return arr1 ;
     }
 }

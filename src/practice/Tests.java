@@ -39,15 +39,15 @@ public class Tests {
 
     @Test
     public void maxSub() {
-        System.out.println(NewMax.maxSubMass(a).equals(result));
-        System.out.println(NewMax.maxSubMass(a1).equals(result1));
-        System.out.println(NewMax.maxSubMass(a2).equals(result2));
-        System.out.println(NewMax.maxSubMass(a3).equals(result3));
-        System.out.println(NewMax.maxSubMass(a4).equals(result4));
-        System.out.println(NewMax.maxSubMass(a5).equals(result5));
-        System.out.println(NewMax.maxSubMass(a6).equals(result6));
-        System.out.println(NewMax.maxSubMass(a7).equals(result7));
-        System.out.println(NewMax.maxSubMass(a8).equals(result8));
-        System.out.println(NewMax.maxSubMass(a9).equals(result9));
+        assertEquals(NewMax.maxSubMass(a),result);
+        assertEquals(NewMax.maxSubMass(a1),result1);
+        assertEquals(NewMax.maxSubMass(a2),result2);
+        assertEquals(NewMax.maxSubMass(a3),result3);
+        assertEquals(NewMax.maxSubMass(a4),result4);
+        assertEquals(NewMax.maxSubMass(a5),result5);
+        assertEquals(NewMax.maxSubMass(a6),result6);
+        assertEquals(NewMax.maxSubMass(a7),result7);
+        assertEquals(NewMax.maxSubMass(a8),result8);
+        assertEquals(NewMax.maxSubMass(a9),result9);
     }
 }
